@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 const font = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sab Sab Sab Sab Sab",
+  title: "Bryan the best developer",
   description: "Dev Wayne is the best",
 };
 
