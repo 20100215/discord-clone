@@ -1,7 +1,8 @@
 "use client";
 
 import { useParams, useRouter } from "next/navigation";
-import { ActionTooltip } from "../action-tooltip";
+import { ActionTooltip } from "@/components/action-tooltip";
+
 import { cn } from "@/lib/utils";
 import Image from "next/image";
 
@@ -36,8 +37,8 @@ export const NavigationItem = ({
         <div
           className={cn(
             "absolute left-0 bg-primary rounded-r-full transition-all w-[4px]",
-            params?.serverId !== id && "group-fover:h-[20px]",
-            params?.serverId === id ? "h-[36px]" : "h-[8px]",
+            params?.serverId !== id && "group-hover:h-[20px]",
+            params?.serverId === id ? "h-[36px]" : "h-[8px]"
           )}
         />
         <div className={cn(
