@@ -1,7 +1,7 @@
 import { currentProfile } from "@/lib/current-profile";
 import { db } from "@/lib/db";
 import { redirect } from "next/navigation";
-import { NavigationAction } from "./navigatuon-action";
+import { NavigationAction } from "./navigation-action";
 
 export const NavigationSidebar = async () => {
   const profile = await currentProfile();
