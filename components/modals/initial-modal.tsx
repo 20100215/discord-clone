@@ -82,6 +82,7 @@ export const InitialModal = () => {
                       <FormItem>
                         <FormControl>
                           {/* File upload - endpoint found in api/uploadthing/core.ts -> ourFileRouter */}
+                          {/* Check the hostname and configure in next.config.js */}
                           <FileUpload 
                             endpoint="serverImage"
                             value={field.value}
